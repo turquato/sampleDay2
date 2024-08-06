@@ -1,1 +1,25 @@
 this is a test
+
+Git command
+
+-	git init – to initialize git
+-	git add. -  to add all files
+-	git commit -m “message”
+-	git remote add origin https://github.com/yourproject.git
+-   git remote rm origin - only use this if you have used a wrong URL with "add origin"
+-	git push origin master
+
+
+
+Change branch
+ 
+-	git checkout test-branch
+-	git checkout -b test-branch
+-	git status
+-	git commit -am “message”
+-	git status
+-	git push origin test-branch
+
+
+Pull
+-	git pull https://github.com/yourproject.git
